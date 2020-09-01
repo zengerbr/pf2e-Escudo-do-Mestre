@@ -1,7 +1,7 @@
  {   
-   "name": "PF2eGMScreen_pt-BR",   
+   "name": "PF2e-Escudo-do-Mestre",   
    "title": "PF2e Escudo do Mestre",   
-   "description": "Escudo do Mestre para pathfinder 2e PT BR",   
+   "description": "Escudo do Mestre para pathfinder 2e pt_BR",   
    "author": ">.Zengerbr",
    "systems": ["pf2e"],
    "version": "0.5",
@@ -11,23 +11,23 @@
     {
       "label": "Sociedade Pathfinder",
       "entity": "JournalEntry",
-      "name": "tres-gm-screen",
+      "name": "sociedade-pathfinder",
       "path": "packs/sociedade-pathfinder.db",
-      "module": "PF2eGMScreen"
+      "module": "PF2e-Escudo-do-Mestre"
     },
 	{
-      "label": "PF2e GM Screen - Rollable Tables",
-      "entity": "RollTable",
-      "name": "pf2e-gm-screen-rollable-tables",
-      "path": "packs/pf2e-gm-screen-rollable-tables.db",
-	  "module": "PF2eGMScreen"
+      "label": "PF2e Escudo do Mestre",
+      "entity": "JournalEntry",
+      "name": "pf2e-escudo-do-mestre",
+      "path": "packs/pf2e-escudo-do-mestre.db",
+	  "module": "PF2e-Escudo-do-Mestre"
     },
     {
       "label": "PF2e GM Screen - Missing Items",
       "entity": "Item",
       "name": "pf2e-gm-screen-missing-items",
       "path": "packs/pf2e-gm-screen-missing-items.db",
-	  "module": "PF2eGMScreen"
+	  "module": "PF2e-Escudo-do-Mestre"
     }
   ],
     "url": "https://gitlab.com/atakanaltiner6/pf2e-gm-screen/",
