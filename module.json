@@ -30,7 +30,7 @@
 	  "module": "PF2e-Escudo-do-Mestre"
     }
   ],
-    "url": "https://gitlab.com/atakanaltiner6/pf2e-gm-screen/",
-    "manifest": "https://gitlab.com/atakanaltiner6/pf2e-gm-screen/-/raw/master/module.json",
-    "download": "https://gitlab.com/atakanaltiner6/pf2e-gm-screen/-/archive/master/package/pf2egmscreen-v1.0.3.zip"
- }
+    "url":"https://github.com/zengerbr/pf2e-Escudo-do-Mestre",
+   "manifest":"https://raw.githubusercontent.com/zengerbr/pf2e-Escudo-do-Mestre/master/module.json",
+   "download":"https://github.com/zengerbr/pf2e-Escudo-do-Mestre/archive/master.zip"
+}
