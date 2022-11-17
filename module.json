@@ -1,36 +1,66 @@
- {   
-   "name": "PF2e-Escudo-do-Mestre",   
-   "title": "PF2e Escudo do Mestre",   
-   "description": "Escudo do Mestre para pathfinder 2e pt_BR",   
-   "author": ">.Zengerbr",
-   "systems": ["pf2e"],
-   "version": "0.5",
-   "minimumCoreVersion": "0.6.0",
-   "compatibleCoreVersion":"0.6.6",
-   "packs": [
+{
+  "title": "PF2e Escudo do Mestre",
+  "description": "Escudo do Mestre para pathfinder 2e pt_BR",
+  "version": "0.8",
+  "packs": [
+	{
+      "label": "pf2e Escudo do Mestre V10",
+      "name": "pf2e-escudo-do-mestre-v10",
+      "path": "packs/pf2e-escudo-do-mestre-v10.db",
+      "type": "JournalEntry",
+      "private": false,
+      "system": "pf2e",
+      "flags": {}
+    },
     {
       "label": "Sociedade Pathfinder",
-      "entity": "JournalEntry",
       "name": "sociedade-pathfinder",
       "path": "packs/sociedade-pathfinder.db",
-      "module": "PF2e-Escudo-do-Mestre"
+      "type": "JournalEntry",
+      "private": false,
+      "system": "pf2e",
+      "flags": {}
     },
-	{
+    {
       "label": "PF2e Escudo do Mestre",
-      "entity": "JournalEntry",
       "name": "pf2e-escudo-do-mestre",
       "path": "packs/pf2e-escudo-do-mestre.db",
-	  "module": "PF2e-Escudo-do-Mestre"
+      "type": "JournalEntry",
+      "private": false,
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "label": "PF2e GM Screen - Missing Items",
-      "entity": "Item",
       "name": "pf2e-gm-screen-missing-items",
       "path": "packs/pf2e-gm-screen-missing-items.db",
-	  "module": "PF2e-Escudo-do-Mestre"
+      "type": "Item",
+      "private": false,
+      "system": "pf2e",
+      "flags": {}
     }
   ],
-    "url":"https://github.com/zengerbr/pf2e-Escudo-do-Mestre",
-   "manifest":"https://raw.githubusercontent.com/zengerbr/pf2e-Escudo-do-Mestre/master/module.json",
-   "download":"https://github.com/zengerbr/pf2e-Escudo-do-Mestre/archive/master.zip"
+  "url": "https://github.com/zengerbr/pf2e-Escudo-do-Mestre",
+  "manifest": "https://raw.githubusercontent.com/zengerbr/pf2e-Escudo-do-Mestre/master/module.json",
+  "download": "https://github.com/zengerbr/pf2e-Escudo-do-Mestre/archive/master.zip",
+  "id": "PF2e-Escudo-do-Mestre",
+  "authors": [
+    {
+      "name": ">.Zengerbr",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "0.6.0",
+    "verified": "10"
+  }
 }
